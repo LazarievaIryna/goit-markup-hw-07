@@ -10,7 +10,6 @@
   --second-bcg-color: #2f303a;
   --address-color: rgba(255, 255, 255, 0.6);
 }
-
 body {
   font-family: "Roboto", Arial, sans-serif;
 }
@@ -39,6 +38,7 @@ img {
 .list {
   list-style: none;
 }
+
 .container {
   width: 1200px;
   padding-left: 15px;
