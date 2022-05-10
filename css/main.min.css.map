@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"main.min.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/base/_reset.scss"],"names":[],"mappings":"AAAA,KACE,sCAEF,oBAOE,SAGF,MAEE,eACA,SAEF,IACE","file":"main.min.css"}

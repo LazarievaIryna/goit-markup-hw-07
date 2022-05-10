@@ -10,27 +10,6 @@
   --second-bcg-color: #2f303a;
   --address-color: rgba(255, 255, 255, 0.6);
 }
-body {
-  font-family: "Roboto", Arial, sans-serif;
-}
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-ul,
-ol {
-  padding-left: 0;
-  margin: 0;
-}
-img {
-  display: block;
-}
 
 .link {
   text-decoration: none;
