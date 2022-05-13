@@ -14,12 +14,12 @@
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
-.team-container {
+.team-content {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: rgba(255, 255, 255, 1);
 }
-.team-member {
+.team-content__member {
   margin-bottom: 10px;
   font-weight: 500;
   color: var(--main-title-color);
@@ -34,7 +34,7 @@
   background-color: var(--team-bcg-color);
 }
 
-.team-position {
+.team-content__position {
   font-weight: 400;
   color: var(--main-text-color);
   margin-bottom: 16px;

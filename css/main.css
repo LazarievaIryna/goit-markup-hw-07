@@ -50,7 +50,7 @@ img {
   margin: auto;
 }
 
-.logo {
+.logo__text {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -58,16 +58,20 @@ img {
   letter-spacing: 0.03em;
 }
 
-.header-logo-margin {
+.header__logo {
   margin-right: 93px;
 }
 
-.header-logo {
+.logo__text--first-part {
   color: var(--accent-color);
 }
 
-.header-logo-second {
+.logo--black {
   color: var(--header-logo-color);
+}
+
+.logo--white {
+  color: var(--hero-title-color);
 }
 
 .header {
@@ -80,7 +84,7 @@ img {
   align-items: center;
 }
 
-.header-list,
+.navigation__list,
 .header-contacts {
   display: flex;
 }
@@ -106,25 +110,25 @@ img {
   margin-left: auto;
 }
 
-.header-link {
+.navigation__link {
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
 }
 
-.header-item:not(:last-child) {
+.navigation__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-link {
+.navigation__link {
   color: var(--main-title-color);
   position: relative;
   display: flex;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link:hover,
-.header-link:focus {
+.navigation__link:hover,
+.navigation__link:focus {
   color: var(--accent-color);
 }
 
@@ -338,7 +342,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.soc-link {
+.soc__link {
   display: flex;
   height: 44px;
   width: 44px;
@@ -349,17 +353,17 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.soc-item + .soc-item {
+.soc__item + .soc__item {
   margin-left: 10px;
 }
 
-.soc-list {
+.soc {
   display: flex;
   justify-content: center;
 }
 
-.soc-link:hover,
-.soc-link:focus {
+.soc__link:hover,
+.soc__link:focus {
   fill: var(--hero-title-color);
   background-color: var(--accent-color);
 }
@@ -382,13 +386,13 @@ img {
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
-.team-container {
+.team-content {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: rgb(255, 255, 255);
 }
 
-.team-member {
+.team-content__member {
   margin-bottom: 10px;
   font-weight: 500;
   color: var(--main-title-color);
@@ -405,7 +409,7 @@ img {
   background-color: var(--team-bcg-color);
 }
 
-.team-position {
+.team-content__position {
   font-weight: 400;
   color: var(--main-text-color);
   margin-bottom: 16px;
@@ -447,14 +451,6 @@ img {
 .footer-link {
   display: inline-block;
   margin-bottom: 20px;
-}
-
-.footer-logo {
-  color: var(--accent-color);
-}
-
-.footer-logo-part {
-  color: var(--hero-title-color);
 }
 
 .footer-address {
