@@ -5,10 +5,11 @@
 }
 .filters-link {
   margin-right: 8px;
-}
-.filters-link:last-child {
+  &:last-child {
   margin-right: 0;
 }
+}
+
 .filter-btn {
   padding: 6px 22px;
   border: 1px solid transparent;
@@ -27,12 +28,13 @@
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.btn:hover,
-.btn:focus {
+    &:hover,
+&:focus {
   background-color: var(--accent-color);
   color: var(--hero-title-color);
 }
+}
+
 .btn-current {
   background-color: var(--accent-color);
   color: var(--hero-title-color);

@@ -1,3 +1,7 @@
+.soc {
+  display: flex;
+  justify-content: center;
+}
 .soc__link {
   display: flex;
   height: 44px;
@@ -10,18 +14,16 @@
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+&:focus {
+  fill: var(--hero-title-color);
+  background-color: var(--accent-color);
+}
 }
 .soc__item + .soc__item {
   margin-left: 10px;
 }
 
-.soc {
-  display: flex;
-  justify-content: center;
-}
 
-.soc__link:hover,
-.soc__link:focus {
-  fill: var(--hero-title-color);
-  background-color: var(--accent-color);
-}
+
+

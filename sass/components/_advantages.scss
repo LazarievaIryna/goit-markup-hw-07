@@ -30,7 +30,7 @@
 }
 .advantages-list__item {
   margin-right: 30px;
-}
-.advantages-list__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }

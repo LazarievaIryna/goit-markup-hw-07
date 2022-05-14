@@ -12,14 +12,13 @@
   fill: rgba(175, 177, 184, 1);
   padding: 16px 32px;
 
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms $cubic-bezier, fill 250ms $cubic-bezier;
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }
 .client-item + .client-item {
   margin-left: 30px;
-}
-.client-link:hover,
-.client-link:focus {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
 }

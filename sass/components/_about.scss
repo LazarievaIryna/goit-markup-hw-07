@@ -16,10 +16,11 @@
 }
 .about-list-img {
   margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
 }
-.about-list-img:last-child {
-  margin-right: 0;
-}
+
 .about-list-thumb {
   position: relative;
 }
