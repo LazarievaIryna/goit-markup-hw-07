@@ -8,23 +8,23 @@
 }
 
 .navigation__list,
-.header-contacts {
+.contacts {
   display: flex;
 }
-.header-text {
+.header__text {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.header-icons {
+.contacts-icons {
   margin-right: 10px;
   fill: currentColor;
   display: block;
 }
 
-.header-contacts {
+.header__contacts {
   margin-left: auto;
 }
 .navigation__link {
@@ -63,7 +63,7 @@
   bottom: 0;
 }
 
-.header-contacts-link {
+.contacts__link {
   color: var(--main-text-color);
   display: flex;
   align-items: center;
